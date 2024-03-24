@@ -3,6 +3,7 @@ package ru.yandex.practicum.catsgram.model;
 import java.time.Instant;
 
 public class Post {
+
     private Integer id;
     private final String author; // автор
     private final Instant creationDate = Instant.now(); // дата создания
